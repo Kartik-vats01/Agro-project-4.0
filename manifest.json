@@ -1,0 +1,21 @@
+{
+  "name": "AgriMitra",
+  "short_name": "AgriMitra",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e7a2d",
+  "description": "Frontend PWA for Crop Recommendation and Disease Prediction (UI only).",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png/jpg"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
