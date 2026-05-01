@@ -10,29 +10,30 @@
 ---
 
 ## 📁 Project Structure
-<br>
+
+```
 Agro-project-4.0/
 │
 ├── .vscode/
 │   └── tasks.json
 │
 ├── Agricredentials/
-│   └── Agricredentials.sqlproj       # Database project file
+│   └── Agricredentials.sqlproj
 │
-├── backend/                          # Node.js backend (API layer)
+├── backend/
 │   ├── middleware/
-│   │   └── auth.js                   # Authentication middleware
+│   │   └── auth.js
 │   ├── models/
-│   │   └── User.js                   # User database model
+│   │   └── User.js
 │   ├── routes/
-│   │   └── auth.js                   # Auth routes (login/register)
-│   ├── .env.example                  # Environment variable template
+│   │   └── auth.js
+│   ├── .env.example
 │   ├── .gitignore
 │   ├── package.json
 │   ├── package-lock.json
-│   └── server.js                     # Backend entry point
+│   └── server.js
 │
-├── client/                           # Frontend (HTML/CSS/JS)
+├── client/
 │   ├── css/
 │   │   └── style.css
 │   ├── js/
@@ -46,16 +47,17 @@ Agro-project-4.0/
 │   ├── script.js
 │   └── style.css
 │
-└── server/                           # Core recommendation server
-├── middleware/
-│   └── auth.js
-├── routes/
-│   ├── auth.js
-│   ├── dashboard.js
-│   └── db.js                     # Database connection
-├── index.js
-├── init.sql                      # Database initialization script
-└── server.js                     # Main server entry point
+└── server/
+    ├── middleware/
+    │   └── auth.js
+    ├── routes/
+    │   ├── auth.js
+    │   ├── dashboard.js
+    │   └── db.js
+    ├── index.js
+    ├── init.sql
+    └── server.js
+```
 ---
 
 ## 🧱 Architecture Overview
