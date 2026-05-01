@@ -10,6 +10,7 @@
 ---
 
 ## 📁 Project Structure
+<br>
 Agro-project-4.0/
 │
 ├── .vscode/
@@ -128,11 +129,9 @@ node server.js
 
 ```env
 PORT=5000
-DB_HOST=your_database_host
-DB_USER=your_database_user
-DB_PASSWORD=your_database_password
-DB_NAME=agro_db
-JWT_SECRET=your_jwt_secret_key
+DB_HOST=Localhost\SQLExpress
+DB_PASSWORD=Agro@123
+DB_NAME=Agro_db
 ```
 
 ---
