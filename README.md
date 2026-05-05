@@ -131,6 +131,7 @@ node server.js
 
 ```env
 PORT=5000
+DB_USER= sa
 DB_HOST=Localhost\SQLExpress
 DB_PASSWORD=Agro@123
 DB_NAME=Agro_db
