@@ -85,10 +85,10 @@ The project follows a **3-layer architecture**:
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
+| Layer | Technology |    
 |---|---|
 | Frontend | HTML, CSS, JavaScript |
-| Backend | Node.js, Express.js |
+| Backend | Node.js, Express.js |              
 | Database | SQL (via `init.sql` + `.sqlproj`) |
 | Auth | JWT / Middleware-based |
 | Dev Tools | VS Code, npm |
@@ -180,8 +180,6 @@ This project is licensed under the **MIT License**.
 ---
 
 ## 👨‍💻 Author
-
-**Your Name**
 - GitHub: [Kartik Sharma](https://github.com/kartik-vats01)
 
 ---

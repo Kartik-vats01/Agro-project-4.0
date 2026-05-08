@@ -1,0 +1,29 @@
+{
+  "name": "farmer-app",
+  "version": "1.0.0",
+  "description": "Web application for farmers using Node.js, Express, and MSSQL",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "mssql": "^12.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "farmer",
+    "agriculture",
+    "mssql",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}
